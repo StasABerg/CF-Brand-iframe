@@ -13,7 +13,7 @@ jobs:
       matrix:
         folder: ['12BET']
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Change directory
         run: cd ${{ matrix.folder }}
       - name: Deploy
