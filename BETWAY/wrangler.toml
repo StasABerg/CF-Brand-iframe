@@ -1,0 +1,4 @@
+name = "BETWAY"
+entry-point = "./"
+[[deploy.routes]]
+route = "nnaoxiang.com/*"
