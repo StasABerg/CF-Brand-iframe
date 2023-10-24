@@ -15,6 +15,8 @@ jobs:
         config: ['7hrkdr.toml']
     steps:
       - uses: actions/checkout@v4
+      - name: change directory
+        run: cd ${{ matrix.folder }}
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
