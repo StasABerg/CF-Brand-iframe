@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         brand: ['12BET']
-        config: ['7hrkdr.toml']
+        config: ['./7hrkdr.toml']
     steps:
       - uses: actions/checkout@v4
       - name: change directory
@@ -22,4 +22,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARETOKEN }}
           workingDirectory: ${{ matrix.brand }}
-          configPath: ${{ matrix.brand }}/${{ matrix.config }}
+          configPath: ${{ matrix.config }}
