@@ -4,22 +4,18 @@ on:
   push:
     branches:
       - main
-#
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy
     strategy:
       matrix:
-        brand: ['12BET']
-        config: ['./7hrkdr.toml']
+        brand: ['12BET]
+        account: ['7hrkdr', '8isles', '8isles2']
     steps:
       - uses: actions/checkout@v4
-      - name: change directory
-        run: cd ${{ matrix.folder }}
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARETOKEN }}
-          workingDirectory: ${{ matrix.brand }}
-          configPath: ${{ matrix.config }}
+          workingDirectory: ${{ matrix.brand }}/${{ matrix.account }}
