@@ -20,4 +20,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARETOKEN }}
           workingDirectory: ${{ matrix.brand }}
-          configPath: ${{ matrix.brand }}/${{ matrix.config }}
+          configPath: ${{ matrix.config }}
