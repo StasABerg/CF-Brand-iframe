@@ -1,4 +1,4 @@
 name = "12bet"
-entry-point = "./"
+main = "./worker.js"
 [[deploy.routes]]
 route = "nnaoxiang.com/*"
