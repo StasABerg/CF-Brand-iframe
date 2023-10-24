@@ -1,5 +1,5 @@
 name = "12bet"
-main = "./worker.js"
+main = "worker.js"
 compatibility_date = "2023-10-23"
 
 account_id = "b3fa92a12b796d7f8b9b52e1b4e196a2"
