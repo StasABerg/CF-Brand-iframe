@@ -7,10 +7,12 @@ on:
 #
 jobs:
   deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
     strategy:
       matrix:
-        brand: ['12BET']
-        config: ['7hrkdr.toml', '8isles.toml', '8isles2.toml']  # Add all config files here
+        brand: ['12BET , 888, CASINO']
+        config: ['7hrkdr.toml']
     steps:
       - uses: actions/checkout@v4
       - name: Deploy
@@ -18,4 +20,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARETOKEN }}
           workingDirectory: ${{ matrix.brand }}
-          configPath: ${{ matrix.brand }}/${{ matrix.config }}
+          configPath: ${{ matrix.config }}
