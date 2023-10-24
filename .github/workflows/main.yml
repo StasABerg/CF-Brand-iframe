@@ -11,13 +11,13 @@ jobs:
     name: Deploy
     strategy:
       matrix:
-        folder: ['12BET']
+        brand: ['12BET']
+        config: ['7hrkdr.toml']
     steps:
       - uses: actions/checkout@v4
-      - name: Change directory
-        run: cd ${{ matrix.folder }}
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARETOKEN }}
-          workingDirectory: ${{ matrix.folder }}
+          workingDirectory: ${{ matrix.brand }}
+          configPath: ${{ matrix.brand }}/${{ matrix.config }}
