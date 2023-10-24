@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        brand: ['12BET]
+        brand: ['12BET']
         account: ['7hrkdr', '8isles', '8isles2']
     steps:
       - uses: actions/checkout@v4
