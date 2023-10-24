@@ -1,4 +1,4 @@
-name = "12BET"
+name = "12bet"
 entry-point = "./"
 [[deploy.routes]]
 route = "nnaoxiang.com/*"
