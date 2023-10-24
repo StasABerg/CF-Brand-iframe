@@ -1,6 +1,6 @@
 name = "12bet"
 main = "./worker.js"
-compatibility_date = "2023-24-10"
+compatibility_date = "2023-10-23"
 
 account_id = "16955a31f332cc9cc356f745dc53a078"
 workers_dev = false
