@@ -9,9 +9,15 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: Deploy
+    strategy:
+      matrix:
+        folder: ['12BET']
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+      - name: Change directory
+        run: cd ${{ matrix.folder }}
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARETOKEN }}
+          workingDirectory: ${{ matrix.folder }}
