@@ -11,7 +11,7 @@ jobs:
     name: Deploy
     strategy:
       matrix:
-        brand: ['12BET , 888, CASINO']
+        brand: ['12BET']
         config: ['7hrkdr.toml']
     steps:
       - uses: actions/checkout@v4
