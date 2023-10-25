@@ -1,4 +1,0 @@
-name = "FUN888"
-entry-point = "./"
-[[deploy.routes]]
-route = "nnaoxiang.com/*"

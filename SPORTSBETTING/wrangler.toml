@@ -1,4 +1,0 @@
-name = "SPORTSBETTING"
-entry-point = "./"
-[[deploy.routes]]
-route = "nnaoxiang.com/*"

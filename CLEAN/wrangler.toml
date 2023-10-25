@@ -1,4 +1,0 @@
-name = "CLEAN"
-entry-point = "./"
-[[deploy.routes]]
-route = "nnaoxiang.com/*"

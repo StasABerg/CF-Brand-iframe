@@ -1,4 +1,0 @@
-name = "LETOU"
-entry-point = "./"
-[[deploy.routes]]
-route = "nnaoxiang.com/*"
