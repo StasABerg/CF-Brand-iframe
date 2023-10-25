@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        brand: ['12BET'] #, '888', 'BETWAY', 'CASINO', 'CLEAN', 'LETOU', 'MANBET', 'SPORTSBETTING', 'W88','WC22']
+        brand: ['12BET','MANBET','188BET', 'LETOU', 'FUN88', 'M88', 'MULTI'] #, '888', 'BETWAY', 'CASINO', 'CLEAN', 'LETOU', 'MANBET', 'SPORTSBETTING', 'W88','WC22']
         account: ['7hrkdr'] #, '8isles', '8isles2']
     steps:
       - uses: actions/checkout@v4

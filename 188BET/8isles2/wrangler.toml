@@ -1,7 +1,7 @@
-name = "sportsbetting"
+name = "12bet"
 main = "../worker.js"
 compatibility_date = "2023-10-23"
 
-account_id = "b3fa92a12b796d7f8b9b52e1b4e196a2"
+account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
 route = { pattern = "nnaoxiang.com/*", zone_name = "nnaoxiang.com" }

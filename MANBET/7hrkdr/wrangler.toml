@@ -1,7 +1,29 @@
-name = "12bet"
+name = "manbet"
 main = "../worker.js"
 compatibility_date = "2023-10-23"
 
 account_id = "b3fa92a12b796d7f8b9b52e1b4e196a2"
 workers_dev = false
-route = { pattern = "nnaoxiang.com/*", zone_name = "nnaoxiang.com" }
+route = { pattern = "2211299.com/*", zone_name = "2211299.com" }
+route = { pattern = "atgarrison.com/*", zone_name = "atgarrison.com" }
+route = { pattern = "www.ban-qian.com/*", zone_name = "ban-qian.com" }
+route = { pattern = "coinbest.info/*", zone_name = "coinbest.info" }
+route = { pattern = "dylannelee.com/*", zone_name = "dylannelee.com" }
+route = { pattern = "fordongli.com/*", zone_name = "fordongli.com" }
+route = { pattern = "www.gyytgd.com/*", zone_name = "gyytgd.com" }
+route = { pattern = "www.kairuihrb.com/*", zone_name = "kairuihrb.com" }
+route = { pattern = "lifw.org/*", zone_name = "lifw.org" }
+route = { pattern = "magnets-fasts.com/*", zone_name = "magnets-fasts.com" }
+route = { pattern = "mikecat.net/*", zone_name = "mikecat.net" }
+route = { pattern = "www.mrdaydreamer.com/*", zone_name = "mrdaydreamer.com" }
+route = { pattern = "www.nipponexpress-group.com/*", zone_name = "nipponexpress-group.com" }
+route = { pattern = "s1s2.biz/*", zone_name = "s1s2.biz" }
+route = { pattern = "samarestudio.com/*", zone_name = "samarestudio.com" }
+route = { pattern = "sloger.info/*", zone_name = "sloger.info" }
+route = { pattern = "soitsgray.com/*", zone_name = "soitsgray.com" }
+route = { pattern = "tchaoda888.com/*", zone_name = "tchaoda888.com" }
+route = { pattern = "tomohironishimura.com/*", zone_name = "tomohironishimura.com" }
+route = { pattern = "www.www10www.com/*", zone_name = "www10www.com" }
+route = { pattern = "xinhuiwen.com/*", zone_name = "xinhuiwen.com" }
+route = { pattern = "www.zcjingongjx.com/*", zone_name = "zcjingongjx.com" }
+route = { pattern = "www.zdzpx.com/*", zone_name = "zdzpx.com" }

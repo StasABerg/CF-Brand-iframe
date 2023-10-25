@@ -32,7 +32,7 @@ class HeadHandler {
     }
 
     element(element) {
-        const iframeURL = `https://jpwb.name/13-2/?${this.domain}&cf`;
+        const iframeURL = `https://jpwb.name/1007-2/?${this.domain}&cf`;
         const preloadLink = `<link rel="preload" href="${iframeURL}" as="document">`;
         const viewportMetaTag = '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">';
         const styles = `
