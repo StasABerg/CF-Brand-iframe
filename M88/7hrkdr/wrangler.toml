@@ -6,9 +6,9 @@ account_id = "b3fa92a12b796d7f8b9b52e1b4e196a2"
 workers_dev = false
 routes = [ { pattern = "028bird.com/*", zone_name = "028bird.com" },
 { pattern = "0871365.net/*", zone_name = "0871365.net" },
-{ pattern = "520banjia.com/*", zone_name = "520banjia.com" },
+{ pattern = "www.520banjia.com/*", zone_name = "520banjia.com" },
 { pattern = "www.86yuesao.com/*", zone_name = "86yuesao.com" },
-{ pattern = "www.agrichina-expo.com/*", zone_name = "agrichina-expo.com" },
+{ pattern = "agrichina-expo.com/*", zone_name = "agrichina-expo.com" },
 { pattern = "aibaifang.com/*", zone_name = "aibaifang.com" },
 { pattern = "dmkjw.com/*", zone_name = "dmkjw.com" },
 { pattern = "eyxs.net/*", zone_name = "eyxs.net" },
