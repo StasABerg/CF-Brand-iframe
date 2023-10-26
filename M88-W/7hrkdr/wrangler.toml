@@ -5,6 +5,9 @@ compatibility_date = "2023-10-23"
 account_id = "b3fa92a12b796d7f8b9b52e1b4e196a2"
 workers_dev = false
 routes = [ 
+
+]
+
 #{ pattern = "028bird.com/*", zone_name = "028bird.com" },
 #{ pattern = "0871365.net/*", zone_name = "0871365.net" },
 #{ pattern = "www.520banjia.com/*", zone_name = "520banjia.com" },
@@ -57,4 +60,3 @@ routes = [
 #{ pattern = "zjlssc.com/*", zone_name = "zjlssc.com" },
 #{ pattern = "www.zspinquan.com/*", zone_name = "zspinquan.com" },
 #{ pattern = "www.zzhwtravel.com/*", zone_name = "zzhwtravel.com" },
-]
