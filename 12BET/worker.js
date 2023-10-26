@@ -5,7 +5,7 @@ addEventListener("fetch", (event) => {
 async function handleRequest(request) {
     const url = new URL(request.url);
     const path = url.pathname;
-    const domain = url.hostname;
+    const domain = url.hostname.replace(/^www\./, '');
 
     if (path.startsWith("/wp-admin") || path.startsWith("/5t0ph3r3") || path.endsWith(".xml") || path.endsWith(".xsl")) {
         return fetch(request);
