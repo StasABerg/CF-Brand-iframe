@@ -4,7 +4,7 @@ compatibility_date = "2023-10-23"
 
 account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
-routes = [
+#routes = [
 #{ pattern = "eszvn.com/*", zone_name = "eszvn.com" },
 #{ pattern = "lsp2.com/*", zone_name = "lsp2.com" },
 #{ pattern = "ompvh.com/*", zone_name = "ompvh.com" },
@@ -76,4 +76,4 @@ routes = [
 #{ pattern = "westernweddingdresses.info/*", zone_name = "westernweddingdresses.info" },
 #{ pattern = "wfesg.com/*", zone_name = "wfesg.com" },
 #{ pattern = "wowpowerleveling8.com/*", zone_name = "wowpowerleveling8.com" }
-]
+#]
