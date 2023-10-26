@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         brand: ['12BET-W', '188BET-W', 'BETWAY-W', 'BETWAY-Y', 'FUN88-W', 'FUN88-Y', 'LETOU-W', 'LETOU-Y', 'M88-W', 'MANBET-W', 'MANBET-Y', 'MULTI-W', 'MULTI-Y', 'W88-Y'] #, '888', 'BETWAY', 'CASINO', 'CLEAN', 'LETOU', 'MANBET', 'SPORTSBETTING', 'W88','WC22']
-        account: ['7hrkdr', '8isles2'] #, '8isles2']
+        account: ['8isles2'] #,'7hrkdr', '8isles2']
     steps:
       - uses: actions/checkout@v4
       - name: Deploy

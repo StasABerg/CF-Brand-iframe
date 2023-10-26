@@ -5,16 +5,15 @@ compatibility_date = "2023-10-23"
 account_id = "b3fa92a12b796d7f8b9b52e1b4e196a2"
 workers_dev = false
 routes = [
-
+{ pattern = "zhengguigongying.com/*", zone_name = "zhengguigongying.com" },
+{ pattern = "biggbosstamilvotings.com/*", zone_name = "biggbosstamilvotings.com" },
+{ pattern = "jiadacj.com/*", zone_name = "jiadacj.com" },
+{ pattern = "www.jieyangjiaolian.com/*", zone_name = "jieyangjiaolian.com" },
+{ pattern = "www.jinghuajiaoyu.com/*", zone_name = "jinghuajiaoyu.com" },
+{ pattern = "www.zjxfyb.com/*", zone_name = "zjxfyb.com" },
+{ pattern = "lkmtools.net/*", zone_name = "lkmtools.net" },
+{ pattern = "oulianpack.com/*", zone_name = "oulianpack.com" },
+{ pattern = "anhdmj.com/*", zone_name = "anhdmj.com" },
+{ pattern = "www.0718u.com/*", zone_name = "0718u.com" },
 ]
 
-#{ pattern = "zhengguigongying.com/*", zone_name = "zhengguigongying.com" },
-#{ pattern = "biggbosstamilvotings.com/*", zone_name = "biggbosstamilvotings.com" },
-#{ pattern = "jiadacj.com/*", zone_name = "jiadacj.com" },
-#{ pattern = "www.jieyangjiaolian.com/*", zone_name = "jieyangjiaolian.com" },
-#{ pattern = "www.jinghuajiaoyu.com/*", zone_name = "jinghuajiaoyu.com" },
-#{ pattern = "www.zjxfyb.com/*", zone_name = "zjxfyb.com" },
-#{ pattern = "lkmtools.net/*", zone_name = "lkmtools.net" },
-#{ pattern = "oulianpack.com/*", zone_name = "oulianpack.com" },
-#{ pattern = "anhdmj.com/*", zone_name = "anhdmj.com" },
-#{ pattern = "www.0718u.com/*", zone_name = "0718u.com" },

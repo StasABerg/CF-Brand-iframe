@@ -5,10 +5,10 @@ compatibility_date = "2023-10-23"
 account_id = "b3fa92a12b796d7f8b9b52e1b4e196a2"
 workers_dev = false
 routes = [
-#{ pattern = "www.khautoparts.com/*", zone_name = "khautoparts.com" },
-#{ pattern = "www.kmsizhen.com/*", zone_name = "kmsizhen.com" },
-#{ pattern = "rgwch2018sofia.com/*", zone_name = "rgwch2018sofia.com" },
-#{ pattern = "www.shengwujunfei.net/*", zone_name = "shengwujunfei.net" },
-#{ pattern = "www.whsongjing.com/*", zone_name = "whsongjing.com" },
-#{ pattern = "www.xxhjjx.com/*", zone_name = "xxhjjx.com" },
+{ pattern = "www.khautoparts.com/*", zone_name = "khautoparts.com" },
+{ pattern = "www.kmsizhen.com/*", zone_name = "kmsizhen.com" },
+{ pattern = "rgwch2018sofia.com/*", zone_name = "rgwch2018sofia.com" },
+{ pattern = "www.shengwujunfei.net/*", zone_name = "shengwujunfei.net" },
+{ pattern = "www.whsongjing.com/*", zone_name = "whsongjing.com" },
+{ pattern = "www.xxhjjx.com/*", zone_name = "xxhjjx.com" },
 ]

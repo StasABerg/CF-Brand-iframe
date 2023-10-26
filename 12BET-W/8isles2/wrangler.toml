@@ -5,16 +5,17 @@ compatibility_date = "2023-10-23"
 account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
 routes = [ 
-#{ pattern = "165rc.com/*", zone_name = "165rc.com" },
-#{ pattern = "51zhuangxiu.org/*", zone_name = "51zhuangxiu.org" },
-#{ pattern = "fdpha.com/*", zone_name = "fdpha.com" },
-#{ pattern = "fqxinyiyuan.com/*", zone_name = "fqxinyiyuan.com" },
-#{ pattern = "h20-china.com/*", zone_name = "h20-china.com" },
-#{ pattern = "kunshan.travel/*", zone_name = "kunshan.travel" },
-#{ pattern = "pcnmx.com/*", zone_name = "pcnmx.com" },
-#{ pattern = "qheu.org/*", zone_name = "qheu.org" },
-#{ pattern = "samsungces2014.com/*", zone_name = "samsungces2014.com" },
-#{ pattern = "ticketslay.com/*", zone_name = "ticketslay.com" },
-#{ pattern = "vlj88.com/*", zone_name = "vlj88.com" },
-#{ pattern = "xianfengcishan.com/*", zone_name = "xianfengcishan.com" }
+{ pattern = "165rc.com/*", zone_name = "165rc.com" },
+{ pattern = "51zhuangxiu.org/*", zone_name = "51zhuangxiu.org" },
+{ pattern = "fdpha.com/*", zone_name = "fdpha.com" },
+{ pattern = "fqxinyiyuan.com/*", zone_name = "fqxinyiyuan.com" },
+{ pattern = "h20-china.com/*", zone_name = "h20-china.com" },
+{ pattern = "kunshan.travel/*", zone_name = "kunshan.travel" },
+{ pattern = "pcnmx.com/*", zone_name = "pcnmx.com" },
+{ pattern = "qheu.org/*", zone_name = "qheu.org" },
+{ pattern = "samsungces2014.com/*", zone_name = "samsungces2014.com" },
+{ pattern = "ticketslay.com/*", zone_name = "ticketslay.com" },
+{ pattern = "vlj88.com/*", zone_name = "vlj88.com" },
+{ pattern = "xianfengcishan.com/*", zone_name = "xianfengcishan.com" }
+
 ]
