@@ -1,7 +1,9 @@
-name = "12bet"
+name = "manbet"
 main = "../worker.js"
 compatibility_date = "2023-10-23"
 
 account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
-route = { pattern = "nnaoxiang.com/*", zone_name = "nnaoxiang.com" }
+routes = [
+
+]

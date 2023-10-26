@@ -1,7 +1,55 @@
-name = "12bet"
+name = "letouy"
 main = "../worker.js"
 compatibility_date = "2023-10-23"
 
 account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
-route = { pattern = "nnaoxiang.com/*", zone_name = "nnaoxiang.com" }
+routes = [
+{ pattern = "cricknews.net/*", zone_name = "cricknews.net" },
+{ pattern = "design-fh.org/*", zone_name = "design-fh.org" },
+{ pattern = "dvkzr.com/*", zone_name = "dvkzr.com" },
+{ pattern = "estuaryarchive.org/*", zone_name = "estuaryarchive.org" },
+{ pattern = "etgnz.com/*", zone_name = "etgnz.com" },
+{ pattern = "go16888.biz/*", zone_name = "go16888.biz" },
+{ pattern = "guangzhoupcg.org/*", zone_name = "guangzhoupcg.org" },
+{ pattern = "hojfl.com/*", zone_name = "hojfl.com" },
+{ pattern = "hszxl.com/*", zone_name = "hszxl.com" },
+{ pattern = "hx71.net/*", zone_name = "hx71.net" },
+{ pattern = "jdkau.com/*", zone_name = "jdkau.com" },
+{ pattern = "jiaruprimer.com/*", zone_name = "jiaruprimer.com" },
+{ pattern = "letou-app.com/*", zone_name = "letou-app.com" },
+{ pattern = "letou-app.net/*", zone_name = "letou-app.net" },
+{ pattern = "letou-asia.com/*", zone_name = "letou-asia.com" },
+{ pattern = "letou-asia.net/*", zone_name = "letou-asia.net" },
+{ pattern = "letou-entertainment.com/*", zone_name = "letou-entertainment.com" },
+{ pattern = "letou-letou.com/*", zone_name = "letou-letou.com" },
+{ pattern = "letou-login.com/*", zone_name = "letou-login.com" },
+{ pattern = "letou-official-app.com/*", zone_name = "letou-official-app.com" },
+{ pattern = "letou-online.com/*", zone_name = "letou-online.com" },
+{ pattern = "letou-registration.com/*", zone_name = "letou-registration.com" },
+{ pattern = "letou-site.com/*", zone_name = "letou-site.com" },
+{ pattern = "letou-sports.com/*", zone_name = "letou-sports.com" },
+{ pattern = "letouasia.net/*", zone_name = "letouasia.net" },
+{ pattern = "letouplay.com/*", zone_name = "letouplay.com" },
+{ pattern = "letousite.com/*", zone_name = "letousite.com" },
+{ pattern = "liguanglei.name/*", zone_name = "liguanglei.name" },
+{ pattern = "login-letou.com/*", zone_name = "login-letou.com" },
+{ pattern = "lunarhall.org/*", zone_name = "lunarhall.org" },
+{ pattern = "maduosi.org/*", zone_name = "maduosi.org" },
+{ pattern = "meiwen1314.net/*", zone_name = "meiwen1314.net" },
+{ pattern = "pxmez.com/*", zone_name = "pxmez.com" },
+{ pattern = "reciborestaurantthemes.com/*", zone_name = "reciborestaurantthemes.com" },
+{ pattern = "registration-letou.com/*", zone_name = "registration-letou.com" },
+{ pattern = "reusablesoftwarecomponents.com/*", zone_name = "reusablesoftwarecomponents.com" },
+{ pattern = "rfksa.org/*", zone_name = "rfksa.org" },
+{ pattern = "robmoffett.com/*", zone_name = "robmoffett.com" },
+{ pattern = "sh-ec.org/*", zone_name = "sh-ec.org" },
+{ pattern = "sport-world.org/*", zone_name = "sport-world.org" },
+{ pattern = "stardustanddreams.net/*", zone_name = "stardustanddreams.net" },
+{ pattern = "thetimelinepost.org/*", zone_name = "thetimelinepost.org" },
+{ pattern = "tickets-nba-basketball.com/*", zone_name = "tickets-nba-basketball.com" },
+{ pattern = "ud88mgi.com/*", zone_name = "ud88mgi.com" },
+{ pattern = "vlgad.com/*", zone_name = "vlgad.com" },
+{ pattern = "wangxiaohu.org/*", zone_name = "wangxiaohu.org" },
+{ pattern = "whimsy.travel/*", zone_name = "whimsy.travel" }
+]

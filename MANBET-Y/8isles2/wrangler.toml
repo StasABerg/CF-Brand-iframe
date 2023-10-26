@@ -1,7 +1,47 @@
-name = "12bet"
+name = "manbety"
 main = "../worker.js"
 compatibility_date = "2023-10-23"
 
 account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
-route = { pattern = "nnaoxiang.com/*", zone_name = "nnaoxiang.com" }
+routes = [
+{ pattern = "ajwps.com/*", zone_name = "ajwps.com" },
+{ pattern = "cevxy.com/*", zone_name = "cevxy.com" },
+{ pattern = "cmeob.com/*", zone_name = "cmeob.com" },
+{ pattern = "coem88i.com/*", zone_name = "coem88i.com" },
+{ pattern = "fwnyp.com/*", zone_name = "fwnyp.com" },
+{ pattern = "jaxno.com/*", zone_name = "jaxno.com" },
+{ pattern = "jlibf.com/*", zone_name = "jlibf.com" },
+{ pattern = "lotkg.com/*", zone_name = "lotkg.com" },
+{ pattern = "manbet-login.com/*", zone_name = "manbet-login.com" },
+{ pattern = "manbet-x-asia.com/*", zone_name = "manbet-x-asia.com" },
+{ pattern = "manbet-x.net/*", zone_name = "manbet-x.net" },
+{ pattern = "manbetlogin.com/*", zone_name = "manbetlogin.com" },
+{ pattern = "manbetwanbo.com/*", zone_name = "manbetwanbo.com" },
+{ pattern = "manbetx-login.com/*", zone_name = "manbetx-login.com" },
+{ pattern = "manbetx-sports.net/*", zone_name = "manbetx-sports.net" },
+{ pattern = "manbetx-wanbo.com/*", zone_name = "manbetx-wanbo.com" },
+{ pattern = "manbetxlink.net/*", zone_name = "manbetxlink.net" },
+{ pattern = "manbetxlogin.com/*", zone_name = "manbetxlogin.com" },
+{ pattern = "manbetxsports.net/*", zone_name = "manbetxsports.net" },
+{ pattern = "mcvwe.com/*", zone_name = "mcvwe.com" },
+{ pattern = "ngiop.com/*", zone_name = "ngiop.com" },
+{ pattern = "nskmh.com/*", zone_name = "nskmh.com" },
+{ pattern = "oqdph.com/*", zone_name = "oqdph.com" },
+{ pattern = "pnyfw.com/*", zone_name = "pnyfw.com" },
+{ pattern = "pzxti.com/*", zone_name = "pzxti.com" },
+{ pattern = "qyfek.com/*", zone_name = "qyfek.com" },
+{ pattern = "rtcks.com/*", zone_name = "rtcks.com" },
+{ pattern = "rzqwl.com/*", zone_name = "rzqwl.com" },
+{ pattern = "sujcb.com/*", zone_name = "sujcb.com" },
+{ pattern = "ucigd.com/*", zone_name = "ucigd.com" },
+{ pattern = "urvbj.com/*", zone_name = "urvbj.com" },
+{ pattern = "usjfd.com/*", zone_name = "usjfd.com" },
+{ pattern = "veuvy.com/*", zone_name = "veuvy.com" },
+{ pattern = "vjwgo.com/*", zone_name = "vjwgo.com" },
+{ pattern = "wanbo-entertainment.com/*", zone_name = "wanbo-entertainment.com" },
+{ pattern = "wohrs.com/*", zone_name = "wohrs.com" },
+{ pattern = "xclihe.com/*", zone_name = "xclihe.com" },
+{ pattern = "xvldc.com/*", zone_name = "xvldc.com" }
+
+]
