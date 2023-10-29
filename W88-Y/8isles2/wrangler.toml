@@ -4,6 +4,8 @@ compatibility_date = "2023-10-23"
 
 account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
+[placement]
+mode = "smart"
 routes = [
 { pattern = "11lou11.com/*", zone_name = "11lou11.com" },
 { pattern = "2emg.com/*", zone_name = "2emg.com" },

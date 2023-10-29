@@ -4,6 +4,8 @@ compatibility_date = "2023-10-23"
 
 account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
+[placement]
+mode = "smart"
 routes = [
 { pattern = "cricknews.net/*", zone_name = "cricknews.net" },
 { pattern = "design-fh.org/*", zone_name = "design-fh.org" },

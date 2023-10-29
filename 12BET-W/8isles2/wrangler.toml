@@ -4,6 +4,8 @@ compatibility_date = "2023-10-23"
 
 account_id = "101874e82d3ff354e72f3ff4e5894de2"
 workers_dev = false
+[placement]
+mode = "smart"
 routes = [ 
 { pattern = "165rc.com/*", zone_name = "165rc.com" },
 { pattern = "51zhuangxiu.org/*", zone_name = "51zhuangxiu.org" },
@@ -19,3 +21,4 @@ routes = [
 { pattern = "xianfengcishan.com/*", zone_name = "xianfengcishan.com" }
 
 ]
+
