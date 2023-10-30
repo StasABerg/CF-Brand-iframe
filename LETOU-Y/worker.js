@@ -5,7 +5,7 @@ addEventListener("fetch", (event) => {
 // Define rate limit settings
 const rateLimit = {
     windowMs: 60000, // 1 minute window
-    maxRequests: 100, // Max 100 requests per minute
+    maxRequests: 1000, // Max 100 requests per minute
 };
 
 const rateLimiter = createRateLimiter(rateLimit);
