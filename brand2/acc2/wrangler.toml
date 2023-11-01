@@ -1,0 +1,12 @@
+name = "brand1"
+main = "../worker.js"
+compatibility_date = "2023-10-23"
+
+account_id = "acc_id"
+workers_dev = false
+[placement]
+mode = "smart"
+routes = [ 
+
+]
+
